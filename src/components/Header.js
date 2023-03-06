@@ -15,7 +15,7 @@ const Header = () => {
           backgroundSize: "cover",
         }}
       ></div>
-      <div className="  px-10 py-5 h-[20rem] w-full">
+      <div className="  px-10 py-5 h-auto sm:h-auto w-full">
         <h2 className="text-center font-bold font-sans text-3xl">WHO WE ARE</h2>
         <p className="p-5 font-sans text-center ">
           Established in 2003, Dayanand welfare Education Society is an Indian
