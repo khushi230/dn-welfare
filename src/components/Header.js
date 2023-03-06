@@ -8,13 +8,31 @@ const Header = () => {
         style={{
           backgroundImage:
             'url("https://images.unsplash.com/photo-1507747586703-16d5436bd01d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80")',
-          width: "100vw",
-          height: "100vh",
-          opacity: "0.5",
+          width: "100%",
+          height: "40rem",
+          opacity: "1",
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
-      ></div>
+      >
+        <div className="text-center pt-60 ">
+          <h1 className="font-bold text-5xl font-sans text-yellow-300">
+            Happiness <span className=" text-white">comes from</span>
+          </h1>
+          <h1 className="font-bold text-5xl font-sans text-yellow-300">
+            your donations <span className="text-white">.</span>
+          </h1>
+          <h2 className="font-semibold text-xl font-sans text-white">
+            Be a part of the breakthrough and make someone’s dream come true.
+          </h2>
+        </div>
+        <div className=" text-center p-2 ">
+          <button className="font-sans font-semibold rounded-full ... p-2 justify-center text-center bg-yellow-300 ">
+            Donate now
+          </button>
+        </div>
+      </div>
+
       <div className="  px-10 py-5 h-auto sm:h-auto w-full">
         <h2 className="text-center font-bold font-sans text-3xl">WHO WE ARE</h2>
         <p className="p-5 font-sans text-center ">
