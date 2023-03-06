@@ -3,12 +3,18 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-full ">
-      <img
-        className="w-full h-[30rem]"
-        alt="img"
-        src="https://images.unsplash.com/photo-1507747586703-16d5436bd01d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80"
-      />
+    <div className="w-full  ">
+      <div
+        style={{
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1507747586703-16d5436bd01d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80")',
+          width: "100vw",
+          height: "100vh",
+          opacity: "0.5",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      ></div>
       <div className="  px-10 py-5 h-[20rem] w-full">
         <h2 className="text-center font-bold font-sans text-3xl">WHO WE ARE</h2>
         <p className="p-5 font-sans text-center ">
