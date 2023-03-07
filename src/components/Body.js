@@ -5,6 +5,7 @@ import History from "./History";
 import FieldsOfChange from "./FieldsOfChange";
 import Impact from "./Impact";
 import GetInvolved from "./GetInvolved";
+import SupportCause from "./SupportCause";
 
 const Body = () => {
   return (
@@ -14,6 +15,7 @@ const Body = () => {
       <FieldsOfChange />
       <Impact />
       <GetInvolved />
+      <SupportCause />
     </div>
   );
 };
