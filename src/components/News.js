@@ -1,7 +1,12 @@
 import React from "react";
+import Banner from "./Banner";
 
 const News = () => {
-  return <div>News</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 };
 
 export default News;
