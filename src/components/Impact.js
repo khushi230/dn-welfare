@@ -17,7 +17,7 @@ export const Impact = () => {
         }}
         className="w-full "
       >
-        <h2 className="sticky before:opacity-100 text-center font-bold font-sans text-3xl py-10 ">
+        <h2 className=" before:opacity-100 text-center font-bold font-sans text-3xl py-10 ">
           OUR IMPACT
         </h2>
       </div>

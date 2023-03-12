@@ -14,7 +14,7 @@ import slide_image_3 from "../assets/bg-img.jpg";
 
 const Carousel = () => {
   return (
-    <div className="w-[60%] p-10 m-auto content-center">
+    <div className="w-[90%] p-5 m-auto content-center">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
