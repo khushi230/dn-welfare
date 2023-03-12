@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../common/Logo";
 
 const Navbar = () => {
   return (
     <div className="absolute p-3  w-full shadow-md opacity-1  flex justify-between   ">
-      <Link to="/">
-        <h1 className="font-bold font-sans text-yellow-300">DAYANAND</h1>
-        <h2>WELFARE EDUCATION</h2>
-        <h2>SOCIETY</h2>
-      </Link>
+      <Logo />
       <div className="flex">
         <div className="flex gap-4 justify-around my-6  ">
           <Link className=" text-white hover:text-yellow-300" to="/home">

@@ -12,14 +12,14 @@ import About from "./components/About";
 import Events from "./components/Events";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
-import MobileNavbar from "./components/MobileNavbar";
+import MobileNavbar from "./common/MobileNavbar";
 
 const App = () => {
   const matches = useMediaQuery("(min-width:700px)");
 
   return (
     <div>
-      {matches && <Navbar />}
+      {matches ? <Navbar /> : <MobileNavbar />}
 
       <Outlet />
       <Footer />

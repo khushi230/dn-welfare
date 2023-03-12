@@ -10,7 +10,7 @@ const FieldsOfChange = () => {
       <h2 className="text-center font-bold font-sans text-3xl py-10 ">
         FIELDS OF CHANGE
       </h2>
-      <div className="block grid md:grid-cols-2 lg:grid-cols-4 justify-between p-10">
+      <div className="block grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between p-10">
         {cardsDataArray.map((card) => (
           <div className="p-2">
             <FieldsCard
