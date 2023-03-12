@@ -1,12 +1,7 @@
 import React from "react";
-import Banner from "./Banner";
 
 const About = () => {
-  return (
-    <div>
-      <Banner />
-    </div>
-  );
+  return <div>About Us....</div>;
 };
 
 export default About;

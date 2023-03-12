@@ -4,7 +4,7 @@ import bgImg from "../assets/bg-img.jpg";
 
 export const Impact = () => {
   return (
-    <div>
+    <div className="">
       <div
         style={{
           before: "opacity:1",

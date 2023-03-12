@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div className="absolute h-auto p-3 w-full shadow-md opacity-1  flex justify-between   ">
+    <div className="absolute p-3  w-full shadow-md opacity-1  flex justify-between   ">
       <Link to="/">
         <h1 className="font-bold font-sans text-yellow-300">DAYANAND</h1>
         <h2>WELFARE EDUCATION</h2>
         <h2>SOCIETY</h2>
       </Link>
       <div className="flex">
-        <div className="flex space-x-5 my-6  ">
+        <div className="flex gap-4 justify-around my-6  ">
           <Link className=" text-white hover:text-yellow-300" to="/home">
             Home
           </Link>
@@ -43,4 +43,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
