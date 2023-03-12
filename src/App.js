@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter, Outlet } from "react-router-dom";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 import Navbar from "./components/Navbar";
 import Body from "./components/Body";
@@ -11,11 +12,14 @@ import About from "./components/About";
 import Events from "./components/Events";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
+import MobileNavbar from "./components/MobileNavbar";
 
 const App = () => {
+  const matches = useMediaQuery("(min-width:700px)");
+
   return (
     <div>
-      {/* <Navbar /> */}
+      {matches && <Navbar />}
 
       <Outlet />
       <Footer />
